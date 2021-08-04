@@ -3694,9 +3694,14 @@ Transform:
   m_LocalPosition: {x: -0.07, y: -3.51, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+<<<<<<< HEAD
   - {fileID: 1441386392}
   - {fileID: 548348575}
   - {fileID: 1331265443}
+=======
+  - {fileID: 153807600}
+  - {fileID: 1096992769}
+>>>>>>> parent of f98e008 (Camera Movement)
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3708,11 +3713,17 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 197274534}
   - component: {fileID: 197274537}
   - component: {fileID: 197274536}
   - component: {fileID: 197274535}
   - component: {fileID: 197274538}
+=======
+  - component: {fileID: 519420032}
+  - component: {fileID: 519420031}
+  - component: {fileID: 519420029}
+>>>>>>> parent of f98e008 (Camera Movement)
   m_Layer: 0
   m_Name: Character1_Shoot01
   m_TagString: turn
@@ -3720,21 +3731,124 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &197274534
+=======
+--- !u!81 &519420029
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+--- !u!20 &519420031
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 8.533317
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 0
+  m_HDR: 1
+  m_AllowMSAA: 0
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 0
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &519420032
+>>>>>>> parent of f98e008 (Camera Movement)
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 197274533}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.24760199, y: -0.22240937, z: 5.605548}
   m_LocalScale: {x: 0.2, y: 0.3, z: 1}
+=======
+  m_GameObject: {fileID: 519420028}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.07, y: -3.51, z: -10}
+  m_LocalScale: {x: 2, y: 1.3877, z: 1}
+>>>>>>> parent of f98e008 (Camera Movement)
   m_Children: []
   m_Father: {fileID: 547199241}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!50 &197274535
+=======
+--- !u!1 &1062262693
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1062262697}
+  - component: {fileID: 1062262696}
+  - component: {fileID: 1062262695}
+  - component: {fileID: 1062262694}
+  - component: {fileID: 1062262698}
+  - component: {fileID: 1062262700}
+  - component: {fileID: 1062262699}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1062262694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1062262693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b38a926dd646a9646bf1b65e699417e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 5
+  rb: {fileID: 1062262695}
+  animator: {fileID: 1062262698}
+--- !u!50 &1062262695
+>>>>>>> parent of f98e008 (Camera Movement)
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
@@ -3838,6 +3952,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 197274533}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -3848,10 +3963,24 @@ MonoBehaviour:
   MoveUp: 0
 --- !u!1 &294732123
 GameObject:
+=======
+  m_GameObject: {fileID: 1062262693}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.58, y: 4.33, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1062262698
+Animator:
+  serializedVersion: 3
+>>>>>>> parent of f98e008 (Camera Movement)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   serializedVersion: 6
   m_Component:
   - component: {fileID: 294732124}
@@ -3868,6 +3997,22 @@ GameObject:
   m_IsActive: 1
 --- !u!4 &294732124
 Transform:
+=======
+  m_GameObject: {fileID: 1062262693}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7a7c7180a81da924b8dac0dfab840874, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!61 &1062262699
+BoxCollider2D:
+>>>>>>> parent of f98e008 (Camera Movement)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3893,21 +4038,37 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
+<<<<<<< HEAD
   m_Offset: {x: -0.010176182, y: -0.022310257}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.50339246, y: 0.3206253}
     oldSize: {x: 3, y: 4}
     newSize: {x: 3, y: 4}
+=======
+  m_Offset: {x: -0.008109093, y: -0.73815405}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2, y: 2}
+    newSize: {x: 0.32, y: 0.32}
+>>>>>>> parent of f98e008 (Camera Movement)
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
+<<<<<<< HEAD
   m_Size: {x: 2.5772524, y: 2.0976324}
   m_EdgeRadius: 0
 --- !u!212 &294732126
 SpriteRenderer:
+=======
+  m_Size: {x: 0.5752411, y: 0.28508472}
+  m_EdgeRadius: 0.03
+--- !u!1839735485 &1062262700
+Tilemap:
+>>>>>>> parent of f98e008 (Camera Movement)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3948,6 +4109,7 @@ SpriteRenderer:
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300020, guid: 2164a1816f29acf45ad76327ffa671c7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+<<<<<<< HEAD
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -4107,6 +4269,30 @@ BoxCollider2D:
   m_Size: {x: 1, y: 0.12857258}
   m_EdgeRadius: 0
 --- !u!1 &507459428
+=======
+  m_Origin: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0, y: 0, z: 1}
+  m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
+  m_TileOrientation: 0
+  m_TileOrientationMatrix:
+    e00: 1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+--- !u!1 &1096992768
+>>>>>>> parent of f98e008 (Camera Movement)
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4123,6 +4309,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!156049354 &507459429
 Grid:
   m_ObjectHideFlags: 0
@@ -4136,6 +4323,9 @@ Grid:
   m_CellLayout: 0
   m_CellSwizzle: 0
 --- !u!4 &507459430
+=======
+--- !u!4 &1096992769
+>>>>>>> parent of f98e008 (Camera Movement)
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4185,6 +4375,7 @@ Camera:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
+<<<<<<< HEAD
   serializedVersion: 2
   m_ClearFlags: 2
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
@@ -4856,6 +5047,8 @@ Tilemap:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1096992768}
   m_Enabled: 1
+=======
+>>>>>>> parent of f98e008 (Camera Movement)
   m_Tiles:
   - first: {x: -10, y: -12, z: 0}
     second:
@@ -6796,6 +6989,7 @@ TilemapCollider2D:
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0.00001
+<<<<<<< HEAD
 --- !u!1 &1224154935
 GameObject:
   m_ObjectHideFlags: 0
@@ -7202,3 +7396,5 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+=======
+>>>>>>> parent of f98e008 (Camera Movement)
