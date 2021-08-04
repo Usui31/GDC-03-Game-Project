@@ -18,6 +18,7 @@ AnimationClip:
   m_ScaleCurves: []
   m_FloatCurves: []
 <<<<<<< HEAD:Game Project/Assets/Animation/Player_idle.anim
+<<<<<<< HEAD:Game Project/Assets/Animation/Player_idle.anim
   m_PPtrCurves:
   - curve:
     - time: 0
@@ -26,6 +27,9 @@ AnimationClip:
     path: 
     classID: 212
     script: {fileID: 0}
+=======
+  m_PPtrCurves: []
+>>>>>>> parent of f98e008 (Camera Movement):Game Project/Assets/Animation/Player_idle_down.anim
 =======
   m_PPtrCurves: []
 >>>>>>> parent of f98e008 (Camera Movement):Game Project/Assets/Animation/Player_idle_down.anim
@@ -43,7 +47,11 @@ AnimationClip:
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
 <<<<<<< HEAD:Game Project/Assets/Animation/Player_idle.anim
+<<<<<<< HEAD:Game Project/Assets/Animation/Player_idle.anim
     m_StopTime: 0.016666668
+=======
+    m_StopTime: 1
+>>>>>>> parent of f98e008 (Camera Movement):Game Project/Assets/Animation/Player_idle_down.anim
 =======
     m_StopTime: 1
 >>>>>>> parent of f98e008 (Camera Movement):Game Project/Assets/Animation/Player_idle_down.anim

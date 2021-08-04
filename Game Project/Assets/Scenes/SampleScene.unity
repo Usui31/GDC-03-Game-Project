@@ -3725,7 +3725,10 @@ Transform:
 =======
   - {fileID: 153807600}
   - {fileID: 1096992769}
+<<<<<<< HEAD
 >>>>>>> parent of 5f15bc4 (import assets)
+=======
+>>>>>>> parent of f98e008 (Camera Movement)
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3759,7 +3762,10 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
+<<<<<<< HEAD
 >>>>>>> parent of 5f15bc4 (import assets)
+=======
+>>>>>>> parent of f98e008 (Camera Movement)
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -4093,9 +4099,13 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!61 &1062262699
+<<<<<<< HEAD
 >>>>>>> parent of 5f15bc4 (import assets)
 BoxCollider2D:
 =======
+>>>>>>> parent of f98e008 (Camera Movement)
+=======
+BoxCollider2D:
 >>>>>>> parent of f98e008 (Camera Movement)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4115,6 +4125,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4144,18 +4155,24 @@ BoxCollider2D:
 =======
 >>>>>>> parent of f98e008 (Camera Movement)
 =======
+=======
+>>>>>>> parent of f98e008 (Camera Movement)
   m_Offset: {x: -0.008109093, y: -0.73815405}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 2, y: 2}
     newSize: {x: 0.32, y: 0.32}
+<<<<<<< HEAD
 >>>>>>> parent of 5f15bc4 (import assets)
+=======
+>>>>>>> parent of f98e008 (Camera Movement)
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4171,6 +4188,8 @@ SpriteRenderer:
 >>>>>>> parent of f98e008 (Camera Movement)
 =======
 >>>>>>> parent of 5f15bc4 (import assets)
+=======
+>>>>>>> parent of f98e008 (Camera Movement)
   m_Size: {x: 0.5752411, y: 0.28508472}
   m_EdgeRadius: 0.03
 --- !u!1839735485 &1062262700
@@ -4577,6 +4596,7 @@ Tilemap:
 <<<<<<< HEAD
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
   serializedVersion: 2
   m_ClearFlags: 2
@@ -5251,6 +5271,8 @@ Tilemap:
 >>>>>>> parent of 5f15bc4 (import assets)
   m_GameObject: {fileID: 1096992768}
   m_Enabled: 1
+=======
+>>>>>>> parent of f98e008 (Camera Movement)
 =======
 >>>>>>> parent of f98e008 (Camera Movement)
 =======
@@ -7160,6 +7182,9 @@ Tilemap:
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of f98e008 (Camera Movement)
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Origin: {x: -10, y: -12, z: 0}
   m_Size: {x: 20, y: 17, z: 1}
@@ -7198,6 +7223,7 @@ TilemapCollider2D:
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0.00001
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7528,3 +7554,5 @@ Rigidbody2D:
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0.00001
 >>>>>>> parent of 5f15bc4 (import assets)
+=======
+>>>>>>> parent of f98e008 (Camera Movement)

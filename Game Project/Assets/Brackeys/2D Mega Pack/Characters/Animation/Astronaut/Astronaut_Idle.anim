@@ -18,6 +18,7 @@ AnimationClip:
   m_ScaleCurves: []
   m_FloatCurves: []
 <<<<<<< HEAD:Game Project/Assets/Brackeys/2D Mega Pack/Characters/Animation/Astronaut/Astronaut_Idle.anim
+<<<<<<< HEAD:Game Project/Assets/Brackeys/2D Mega Pack/Characters/Animation/Astronaut/Astronaut_Idle.anim
   m_PPtrCurves:
   - curve:
     - time: 0
@@ -31,11 +32,16 @@ AnimationClip:
   m_PPtrCurves: []
   m_SampleRate: 60
 >>>>>>> parent of f98e008 (Camera Movement):Game Project/Assets/Animation/Player_idle_up.anim
+=======
+  m_PPtrCurves: []
+  m_SampleRate: 60
+>>>>>>> parent of f98e008 (Camera Movement):Game Project/Assets/Animation/Player_idle_left.anim
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0, y: 0, z: 0}
   m_ClipBindingConstant:
+<<<<<<< HEAD:Game Project/Assets/Brackeys/2D Mega Pack/Characters/Animation/Astronaut/Astronaut_Idle.anim
 <<<<<<< HEAD:Game Project/Assets/Brackeys/2D Mega Pack/Characters/Animation/Astronaut/Astronaut_Idle.anim
     genericBindings:
     - serializedVersion: 2
@@ -51,6 +57,10 @@ AnimationClip:
     genericBindings: []
     pptrCurveMapping: []
 >>>>>>> parent of f98e008 (Camera Movement):Game Project/Assets/Animation/Player_idle_up.anim
+=======
+    genericBindings: []
+    pptrCurveMapping: []
+>>>>>>> parent of f98e008 (Camera Movement):Game Project/Assets/Animation/Player_idle_left.anim
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
