@@ -2,7 +2,10 @@
 %TAG !u! tag:unity3d.com,2011:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of f98e008 (Camera Movement)
 =======
 >>>>>>> parent of f98e008 (Camera Movement)
 --- !u!206 &-4008923490385919291
@@ -134,7 +137,10 @@ AnimatorController:
     m_Controller: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of f98e008 (Camera Movement)
 =======
 >>>>>>> parent of f98e008 (Camera Movement)
   - m_Name: Walk
@@ -144,6 +150,9 @@ AnimatorController:
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of f98e008 (Camera Movement)
+=======
 >>>>>>> parent of f98e008 (Camera Movement)
 =======
 >>>>>>> parent of f98e008 (Camera Movement)
