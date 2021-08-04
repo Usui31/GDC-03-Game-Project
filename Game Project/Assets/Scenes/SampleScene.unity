@@ -3710,6 +3710,7 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 1441386392}
   - {fileID: 548348575}
   - {fileID: 1331265443}
@@ -3734,6 +3735,10 @@ Transform:
   - {fileID: 153807600}
   - {fileID: 1096992769}
 >>>>>>> parent of 5f15bc4 (import assets)
+=======
+  - {fileID: 153807600}
+  - {fileID: 1096992769}
+>>>>>>> parent of 5f15bc4 (import assets)
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3745,6 +3750,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3777,6 +3783,11 @@ GameObject:
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
 >>>>>>> parent of 5f15bc4 (import assets)
+=======
+  - component: {fileID: 519420032}
+  - component: {fileID: 519420031}
+  - component: {fileID: 519420029}
+>>>>>>> parent of 5f15bc4 (import assets)
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -3787,8 +3798,11 @@ GameObject:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &197274534
 =======
+=======
+>>>>>>> parent of 5f15bc4 (import assets)
 =======
 >>>>>>> parent of 5f15bc4 (import assets)
 =======
@@ -3847,7 +3861,10 @@ Camera:
 --- !u!4 &519420032
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of f98e008 (Camera Movement)
+=======
+>>>>>>> parent of 5f15bc4 (import assets)
 =======
 >>>>>>> parent of 5f15bc4 (import assets)
 =======
@@ -3860,11 +3877,14 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 197274533}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.24760199, y: -0.22240937, z: 5.605548}
   m_LocalScale: {x: 0.2, y: 0.3, z: 1}
 =======
+=======
+>>>>>>> parent of 5f15bc4 (import assets)
 =======
 >>>>>>> parent of 5f15bc4 (import assets)
 =======
@@ -3875,7 +3895,10 @@ Transform:
   m_LocalScale: {x: 2, y: 1.3877, z: 1}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of f98e008 (Camera Movement)
+=======
+>>>>>>> parent of 5f15bc4 (import assets)
 =======
 >>>>>>> parent of 5f15bc4 (import assets)
 =======
@@ -3887,8 +3910,11 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!50 &197274535
 =======
+=======
+>>>>>>> parent of 5f15bc4 (import assets)
 =======
 >>>>>>> parent of 5f15bc4 (import assets)
 =======
@@ -3933,7 +3959,10 @@ MonoBehaviour:
 --- !u!50 &1062262695
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of f98e008 (Camera Movement)
+=======
+>>>>>>> parent of 5f15bc4 (import assets)
 =======
 >>>>>>> parent of 5f15bc4 (import assets)
 =======
@@ -4011,6 +4040,7 @@ SpriteRenderer:
   m_SpriteSortPoint: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &197274538
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4049,10 +4079,15 @@ Transform:
 --- !u!4 &1062262697
 Transform:
 >>>>>>> parent of 5f15bc4 (import assets)
+=======
+--- !u!4 &1062262697
+Transform:
+>>>>>>> parent of 5f15bc4 (import assets)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4095,6 +4130,8 @@ BoxCollider2D:
 =======
 =======
 >>>>>>> parent of 5f15bc4 (import assets)
+=======
+>>>>>>> parent of 5f15bc4 (import assets)
   m_GameObject: {fileID: 1062262693}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -8.58, y: 4.33, z: 0}
@@ -4107,6 +4144,9 @@ BoxCollider2D:
 Animator:
   serializedVersion: 3
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 5f15bc4 (import assets)
+=======
 >>>>>>> parent of 5f15bc4 (import assets)
 =======
 >>>>>>> parent of 5f15bc4 (import assets)
@@ -4114,6 +4154,7 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4127,6 +4168,8 @@ Animator:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &294732125
 =======
+=======
+>>>>>>> parent of 5f15bc4 (import assets)
 =======
 >>>>>>> parent of 5f15bc4 (import assets)
   m_GameObject: {fileID: 1062262693}
@@ -4144,6 +4187,9 @@ Animator:
 --- !u!61 &1062262699
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 5f15bc4 (import assets)
+=======
 >>>>>>> parent of 5f15bc4 (import assets)
 BoxCollider2D:
 =======
@@ -4159,10 +4205,14 @@ BoxCollider2D:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 294732123}
 =======
   m_GameObject: {fileID: 1062262693}
 >>>>>>> parent of f98e008 (Camera Movement)
+=======
+  m_GameObject: {fileID: 1062262693}
+>>>>>>> parent of 5f15bc4 (import assets)
 =======
   m_GameObject: {fileID: 1062262693}
 >>>>>>> parent of 5f15bc4 (import assets)
@@ -4175,6 +4225,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4226,11 +4277,20 @@ BoxCollider2D:
     oldSize: {x: 2, y: 2}
     newSize: {x: 0.32, y: 0.32}
 >>>>>>> parent of 5f15bc4 (import assets)
+=======
+  m_Offset: {x: -0.008109093, y: -0.73815405}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2, y: 2}
+    newSize: {x: 0.32, y: 0.32}
+>>>>>>> parent of 5f15bc4 (import assets)
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4252,6 +4312,8 @@ SpriteRenderer:
 >>>>>>> parent of f98e008 (Camera Movement)
 =======
 >>>>>>> parent of 5f15bc4 (import assets)
+=======
+>>>>>>> parent of 5f15bc4 (import assets)
   m_Size: {x: 0.5752411, y: 0.28508472}
   m_EdgeRadius: 0.03
 --- !u!1839735485 &1062262700
@@ -4259,9 +4321,12 @@ Tilemap:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of f98e008 (Camera Movement)
 =======
 >>>>>>> parent of f98e008 (Camera Movement)
+=======
+>>>>>>> parent of 5f15bc4 (import assets)
 =======
 >>>>>>> parent of 5f15bc4 (import assets)
 =======
@@ -4273,8 +4338,11 @@ Tilemap:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 294732123}
 =======
+=======
+>>>>>>> parent of 5f15bc4 (import assets)
 =======
 >>>>>>> parent of 5f15bc4 (import assets)
   m_GameObject: {fileID: 1062262693}
@@ -4287,6 +4355,7 @@ Tilemap:
   m_TileColorArray: []
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Origin: {x: 0, y: 0, z: 0}
@@ -4533,6 +4602,9 @@ BoxCollider2D:
 =======
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 >>>>>>> parent of 5f15bc4 (import assets)
+=======
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+>>>>>>> parent of 5f15bc4 (import assets)
   m_Origin: {x: 0, y: 0, z: 0}
   m_Size: {x: 0, y: 0, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
@@ -4557,7 +4629,10 @@ BoxCollider2D:
 --- !u!1 &1096992768
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of f98e008 (Camera Movement)
+=======
+>>>>>>> parent of 5f15bc4 (import assets)
 =======
 >>>>>>> parent of 5f15bc4 (import assets)
 =======
@@ -4583,6 +4658,7 @@ GameObject:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!156049354 &507459429
 Grid:
   m_ObjectHideFlags: 0
@@ -4599,6 +4675,9 @@ Grid:
 =======
 --- !u!4 &1096992769
 >>>>>>> parent of f98e008 (Camera Movement)
+=======
+--- !u!4 &1096992769
+>>>>>>> parent of 5f15bc4 (import assets)
 =======
 --- !u!4 &1096992769
 >>>>>>> parent of 5f15bc4 (import assets)
@@ -4672,6 +4751,7 @@ Tilemap:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 519420028}
@@ -5347,6 +5427,8 @@ Tilemap:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> parent of 5f15bc4 (import assets)
 =======
 >>>>>>> parent of 5f15bc4 (import assets)
 =======
@@ -7266,6 +7348,7 @@ Tilemap:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of f98e008 (Camera Movement)
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -7493,6 +7576,8 @@ SpriteRenderer:
 >>>>>>> parent of 5f15bc4 (import assets)
 =======
 >>>>>>> parent of 5f15bc4 (import assets)
+=======
+>>>>>>> parent of 5f15bc4 (import assets)
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Origin: {x: -10, y: -12, z: 0}
   m_Size: {x: 20, y: 17, z: 1}
@@ -7528,6 +7613,7 @@ TilemapCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   m_Offset: {x: 0, y: 0.040020227}
@@ -7642,6 +7728,11 @@ Rigidbody2D:
 >>>>>>> parent of 5f15bc4 (import assets)
 =======
 >>>>>>> parent of f98e008 (Camera Movement)
+=======
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0.00001
+>>>>>>> parent of 5f15bc4 (import assets)
 =======
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
