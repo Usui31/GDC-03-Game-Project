@@ -3997,7 +3997,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8375a0b5b17f86a43809b9cb1769c9dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 1062262697}
+  target: {fileID: 1968700157}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -4506,7 +4506,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1062262694
 MonoBehaviour:
   m_ObjectHideFlags: 0
