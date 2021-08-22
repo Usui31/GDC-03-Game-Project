@@ -13841,6 +13841,7 @@ MonoBehaviour:
   isFacingUp: 0
   posX: 0
   posY: 0
+  shoot: 0
 --- !u!50 &1062262695
 Rigidbody2D:
   serializedVersion: 4
@@ -13961,6 +13962,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firePoint: {fileID: 1067944382}
   bulletPrefab: {fileID: 3871480093078607465, guid: cb1a8183fea456343a568ccb13fa98bc, type: 3}
+  animator: {fileID: 0}
 --- !u!1839735485 &1062262700
 Tilemap:
   m_ObjectHideFlags: 0
@@ -16675,6 +16677,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firePoint: {fileID: 534854514}
   bulletPrefab: {fileID: 3871480093078607465, guid: cb1a8183fea456343a568ccb13fa98bc, type: 3}
+  animator: {fileID: 1968700154}
 --- !u!114 &1968700150
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16707,6 +16710,7 @@ MonoBehaviour:
   isFacingUp: 0
   posX: 0
   posY: 0
+  shoot: 0
 --- !u!58 &1968700152
 CircleCollider2D:
   m_ObjectHideFlags: 0

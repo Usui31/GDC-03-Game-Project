@@ -6,7 +6,7 @@ public class Weapon : MonoBehaviour
 {
     public Transform firePoint;
     public GameObject bulletPrefab;
-
+    public Animator animator;
     PlayerMovement pm;
 
     void Start(){
@@ -25,10 +25,11 @@ public class Weapon : MonoBehaviour
                 firePoint.transform.localEulerAngles = new Vector3(0,0,180f);
             }else
                 firePoint.transform.localEulerAngles = new Vector3(0,0,0);
-
         }
-
+        
         if (Input.GetButtonDown("Fire1")){
+            animator.SetBool("Shoot",true);
+            //pm.shoot = true;
             Shoot();
         }
     }
