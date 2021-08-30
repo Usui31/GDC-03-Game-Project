@@ -46,7 +46,9 @@ GameObject:
   - component: {fileID: 2028613734006318288}
   - component: {fileID: 2028613734006318289}
   - component: {fileID: 2028613734006318290}
+  - component: {fileID: 9211091583486108634}
   - component: {fileID: 2028613734006318297}
+  - component: {fileID: 1071172660938113850}
   - component: {fileID: 2028613734006318301}
   m_Layer: 0
   m_Name: Girl
@@ -244,6 +246,20 @@ MonoBehaviour:
   firePoint: {fileID: 2028613732285424981}
   bulletPrefab: {fileID: 3871480093078607465, guid: cb1a8183fea456343a568ccb13fa98bc, type: 3}
   animator: {fileID: 2028613734006318301}
+--- !u!114 &9211091583486108634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2028613734006318291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc72780a73e6b0842a41e937e29b29ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+  deathEffect: {fileID: 0}
 --- !u!114 &2028613734006318297
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -256,6 +272,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a709dbc9e9117c4d915ba041c999619, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1071172660938113850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2028613734006318291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48fc65d647cbc5e49a0e0af7ef9c6d6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  starthealth: 100
+  diePEffect: {fileID: 0}
 --- !u!95 &2028613734006318301
 Animator:
   serializedVersion: 3
