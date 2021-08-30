@@ -22,7 +22,7 @@ public class healthPlayer : MonoBehaviour
     public void TakeDamage(float damage)
     {
         hp -= damage;
-        if(hp <= 0f)
+        if(hp <= 0)
         {
             Die();
         }

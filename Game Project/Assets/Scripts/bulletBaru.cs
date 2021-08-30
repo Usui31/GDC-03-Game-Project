@@ -8,6 +8,8 @@ public class bulletBaru : MonoBehaviour
     public int damage;
     private Transform player;
     private Vector2 target;
+
+    
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
@@ -23,10 +25,12 @@ public class bulletBaru : MonoBehaviour
             DestroyProjectile();
         }
     }
-    private void OnTriggerEnter2D(Collider2D hit)
+    void OnTriggerEnter2D(Collider2D hit)
     {
         if (hit.gameObject.CompareTag("Player"))
         {
+            healthPlayer player = hit.GetComponent<healthPlayer>();
+            player.TakeDamage(damage);
             DestroyProjectile();
         }
 
