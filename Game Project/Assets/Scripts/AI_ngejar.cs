@@ -38,6 +38,7 @@ public class AI_ngejar : MonoBehaviour
             transform.position = Vector2.MoveTowards(transform.position, playerPos.position, speedEnemy * Time.deltaTime);
 
             mummyAnim.SetBool("jalan", true);
+
            
             
         }
@@ -56,7 +57,7 @@ public class AI_ngejar : MonoBehaviour
            
 
         }
-        if(timeBtwShots <= 0)
+        if(timeBtwShots <= 0 && Vector2.Distance(transform.position, playerPos.position) < distance)
         {
             Instantiate(projectile, transform.position, Quaternion.identity);
             timeBtwShots = startTimeBtwShots;
