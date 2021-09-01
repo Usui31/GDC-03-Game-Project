@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class bulletBaru : MonoBehaviour
 {
@@ -32,6 +33,8 @@ public class bulletBaru : MonoBehaviour
             healthPlayer player = hit.GetComponent<healthPlayer>();
             player.TakeDamage(damage);
             DestroyProjectile();
+            
+
         }
 
     }

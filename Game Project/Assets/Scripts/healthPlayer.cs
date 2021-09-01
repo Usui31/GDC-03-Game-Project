@@ -1,12 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class healthPlayer : MonoBehaviour
 {
     public float starthealth;
     private float hp;
     public GameObject diePEffect;
+
+    public GameObject mati;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +28,8 @@ public class healthPlayer : MonoBehaviour
         if(hp <= 0)
         {
             Die();
+            
+
         }
     }
     void Die()
@@ -34,5 +39,15 @@ public class healthPlayer : MonoBehaviour
             Instantiate(diePEffect, transform.position, Quaternion.identity);
         }
         Destroy(gameObject);
+        Time.timeScale = 0;
+        mati.SetActive(true);
+        
+
+        
+    }
+    public void ResetScene()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

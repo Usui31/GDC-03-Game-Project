@@ -11,7 +11,12 @@ public class AI_ngejar : MonoBehaviour
     public float speedEnemy;
     private Animator mummyAnim;
 
-    
+
+    [HideInInspector] public bool isFacingRight;
+    [HideInInspector] public bool isFacingUp;
+    [HideInInspector] public float posX, posY;
+
+
 
     private float timeBtwShots;
     public float startTimeBtwShots;
@@ -25,7 +30,12 @@ public class AI_ngejar : MonoBehaviour
         currentPos = GetComponent<Transform>().position;
         mummyAnim = GetComponent<Animator>();
 
-       
+        isFacingRight = false;
+        isFacingUp = false;
+        posX = 0;
+        posY = -1f;
+
+
 
         timeBtwShots = startTimeBtwShots;
     }
