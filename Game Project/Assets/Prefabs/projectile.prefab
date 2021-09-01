@@ -136,3 +136,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   damage: 40
+  duar: {fileID: 3498282528388068193, guid: 15f0c764ff132244db2e23c15c57f0fd, type: 3}
+  epek: {fileID: 4805703233044574804, guid: f84a4ea5340dee44ba05515b6a9b3ed5, type: 3}

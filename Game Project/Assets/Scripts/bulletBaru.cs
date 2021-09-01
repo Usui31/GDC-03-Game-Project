@@ -2,13 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+using UnityEngine.Audio;
 public class bulletBaru : MonoBehaviour
 {
     public float speed;
     public int damage;
     private Transform player;
     private Vector2 target;
+    public GameObject duar;
+
+    public AudioSource epek;
 
     
     void Start()
@@ -33,7 +36,7 @@ public class bulletBaru : MonoBehaviour
             healthPlayer player = hit.GetComponent<healthPlayer>();
             player.TakeDamage(damage);
             DestroyProjectile();
-            
+            epek.Play();
 
         }
 
@@ -41,6 +44,8 @@ public class bulletBaru : MonoBehaviour
 
     void DestroyProjectile()
     {
+        
+        Instantiate(duar, transform.position, Quaternion.identity);
         Destroy(gameObject);
     }
 }

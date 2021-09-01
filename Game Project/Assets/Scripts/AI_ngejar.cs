@@ -49,8 +49,6 @@ public class AI_ngejar : MonoBehaviour
 
             mummyAnim.SetBool("jalan", true);
 
-           
-            
         }
         else
         {
