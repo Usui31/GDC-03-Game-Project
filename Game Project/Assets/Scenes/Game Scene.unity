@@ -11894,7 +11894,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firePoint: {fileID: 1067944382}
   bulletPrefab: {fileID: 3871480093078607465, guid: cb1a8183fea456343a568ccb13fa98bc, type: 3}
-  animator: {fileID: 0}
 --- !u!1839735485 &1062262700
 Tilemap:
   m_ObjectHideFlags: 0

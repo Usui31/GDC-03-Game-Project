@@ -6,7 +6,6 @@ public class Weapon : MonoBehaviour
 {
     public Transform firePoint;
     public GameObject bulletPrefab;
-    public Animator animator;
     PlayerMovement pm;
 
     void Start(){
@@ -28,8 +27,6 @@ public class Weapon : MonoBehaviour
         }
         
         if (Input.GetButtonDown("Fire1")){
-            animator.SetBool("Shoot",true);
-            //pm.shoot = true;
             Shoot();
         }
     }
