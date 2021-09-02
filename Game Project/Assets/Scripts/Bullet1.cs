@@ -17,12 +17,14 @@ public class Bullet1 : MonoBehaviour
     }
 
     void OnTriggerEnter2D (Collider2D hitInfo){
-        Enemy enemy = hitInfo.GetComponent<Enemy>();
-        if (enemy != null){
-            enemy.TakeDamage(damage);
+        if(hitInfo.tag != "Player"){
+            Enemy enemy = hitInfo.GetComponent<Enemy>();
+            if (enemy != null){
+                enemy.TakeDamage(damage);
+            }
+            Instantiate(duar, transform.position, Quaternion.identity);
+            Destroy(gameObject);
         }
-        Instantiate(duar, transform.position, Quaternion.identity);
-        Destroy(gameObject);
     }
     
 }
