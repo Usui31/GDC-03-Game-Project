@@ -11,7 +11,7 @@ public class bulletBaru : MonoBehaviour
     private Vector2 target;
     public GameObject duar;
 
-    public AudioSource epek;
+    
 
     
     void Start()
@@ -36,7 +36,7 @@ public class bulletBaru : MonoBehaviour
             healthPlayer player = hit.GetComponent<healthPlayer>();
             player.TakeDamage(damage);
             DestroyProjectile();
-            epek.Play();
+            
 
         }
 

@@ -50040,6 +50040,10 @@ PrefabInstance:
       value: AudioManager
       objectReference: {fileID: 0}
     - target: {fileID: 6539259499026287331, guid: 14010bd7bfab55547b7a2ca03e2b934d, type: 3}
+      propertyPath: sounds.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6539259499026287331, guid: 14010bd7bfab55547b7a2ca03e2b934d, type: 3}
       propertyPath: sounds.Array.data[0].clip
       value: 
       objectReference: {fileID: 8300000, guid: e3d231dac3eabff41a3f83ca0e54f92a, type: 3}
@@ -50052,11 +50056,31 @@ PrefabInstance:
       value: Theme
       objectReference: {fileID: 0}
     - target: {fileID: 6539259499026287331, guid: 14010bd7bfab55547b7a2ca03e2b934d, type: 3}
+      propertyPath: sounds.Array.data[1].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 9fbc5d0807d26b347a324c59afe11b63, type: 3}
+    - target: {fileID: 6539259499026287331, guid: 14010bd7bfab55547b7a2ca03e2b934d, type: 3}
+      propertyPath: sounds.Array.data[1].loop
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6539259499026287331, guid: 14010bd7bfab55547b7a2ca03e2b934d, type: 3}
+      propertyPath: sounds.Array.data[1].name
+      value: Tembak
+      objectReference: {fileID: 0}
+    - target: {fileID: 6539259499026287331, guid: 14010bd7bfab55547b7a2ca03e2b934d, type: 3}
       propertyPath: sounds.Array.data[0].pitch
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6539259499026287331, guid: 14010bd7bfab55547b7a2ca03e2b934d, type: 3}
+      propertyPath: sounds.Array.data[1].pitch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6539259499026287331, guid: 14010bd7bfab55547b7a2ca03e2b934d, type: 3}
       propertyPath: sounds.Array.data[0].volume
+      value: 0.318
+      objectReference: {fileID: 0}
+    - target: {fileID: 6539259499026287331, guid: 14010bd7bfab55547b7a2ca03e2b934d, type: 3}
+      propertyPath: sounds.Array.data[1].volume
       value: 0.318
       objectReference: {fileID: 0}
     - target: {fileID: 9175437843575073172, guid: 14010bd7bfab55547b7a2ca03e2b934d, type: 3}
