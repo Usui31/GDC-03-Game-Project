@@ -41,13 +41,18 @@ public class healthPlayer : MonoBehaviour
         Destroy(gameObject);
         Time.timeScale = 0;
         mati.SetActive(true);
+
+        FindObjectOfType<AudioManager>().Stop("Theme");
         
 
-        
+
+
     }
     public void ResetScene()
     {
         Time.timeScale = 1;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        FindObjectOfType<AudioManager>().Play("Theme");
+
     }
 }

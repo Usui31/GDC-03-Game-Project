@@ -13,6 +13,7 @@ public class playerDeath : MonoBehaviour
             Destroy(gameObject);
             Time.timeScale = 0;
             mati.SetActive(true);
+            FindObjectOfType<AudioManager>().Stop("Theme");
         }
     }
 
