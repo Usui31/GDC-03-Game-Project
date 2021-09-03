@@ -24,39 +24,41 @@ public class PlayerMovement : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
-        movement.x = Input.GetAxisRaw("Horizontal");
-        movement.y = Input.GetAxisRaw("Vertical");
-        if ((movement.x != 0 || movement.y != 0)) 
-        {
+    {   
+        if(!PauseMenu.isPaused){
+            movement.x = Input.GetAxisRaw("Horizontal");
+            movement.y = Input.GetAxisRaw("Vertical");
+            if ((movement.x != 0 || movement.y != 0)) 
+            {
 
             
-            animator.SetFloat("Horizontal",movement.x);
-            animator.SetFloat("Vertical", movement.y);
-            animator.SetFloat("Speed", movement.sqrMagnitude);
-            animator.SetBool("Walk",true);
+                animator.SetFloat("Horizontal",movement.x);
+                animator.SetFloat("Vertical", movement.y);
+                animator.SetFloat("Speed", movement.sqrMagnitude);
+                animator.SetBool("Walk",true);
             
-        }else animator.SetBool("Walk",false);
+            }else animator.SetBool("Walk",false);
             
 
-        if (movement.x >0f){
-            isFacingRight = true;
-            posX = 1f;
-            posY = 0;
-        }else if (movement.x <0f){
-            isFacingRight = false;
-            posX =  -1f;
-            posY = 0;
-        }
+            if (movement.x >0f){
+                isFacingRight = true;
+                posX = 1f;
+                posY = 0;
+            }else if (movement.x <0f){
+                isFacingRight = false;
+                posX =  -1f;
+                posY = 0;
+            }
 
-        if (movement.y > 0f){
-            isFacingUp = true;
-            posX = 0;
-            posY = 1f;
-        }else if (movement.y < 0f){
-            isFacingUp = false;
-            posX = 0;
-            posY = -1f;
+            if (movement.y > 0f){
+                isFacingUp = true;
+                posX = 0;
+                posY = 1f;
+            }else if (movement.y < 0f){
+                isFacingUp = false;
+                posX = 0;
+                posY = -1f;
+            }
         }
     }
 
