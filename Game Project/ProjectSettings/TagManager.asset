@@ -8,11 +8,12 @@ TagManager:
   - enemy
   - bullet
   - finish
+  - Bullet
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - key
   - Water
   - UI
   - 
@@ -44,4 +45,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: key
+    uniqueID: 2095094669
     locked: 0
