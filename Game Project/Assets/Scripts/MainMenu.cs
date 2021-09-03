@@ -9,6 +9,15 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1); 
     }
 
+    void Start()
+    {
+        if (SceneManager.GetActiveScene().buildIndex == 0)
+        {
+            FindObjectOfType<AudioMenu>().Play("menu");
+        }
+
+    }
+
     public void QuitGame(){
         Debug.Log("quit");
         Application.Quit();
