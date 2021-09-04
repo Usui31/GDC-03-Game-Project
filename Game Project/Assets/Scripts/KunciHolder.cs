@@ -1,11 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class KunciHolder : MonoBehaviour
 {
 
     private List<Kunci.KeyType> keyList;
+    public int count;
+    public Text hitung;
+
+
+
 
     private void Awake()
     {
@@ -31,17 +37,20 @@ public class KunciHolder : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collider)
     {
         Kunci key = collider.GetComponent<Kunci>();
-        if(key != null)
+        if (key != null)
         {
+            
             AddKey(key.GetKeyType());
             Destroy(key.gameObject);
+            count += 1;
+            hitung.text = count.ToString();
         }
         KunciPintu keyDoor = collider.GetComponent<KunciPintu>();
-        if(keyDoor != null)
+        if (keyDoor != null)
         {
-            if (Containskey(keyDoor.GetKeyType()))
+            if (Containskey(keyDoor.GetKeyType()) && count == 3)
             {
-                
+
                 RemoveKey(keyDoor.GetKeyType());
                 keyDoor.BUKA();
             }
@@ -50,4 +59,5 @@ public class KunciHolder : MonoBehaviour
 
 
 
+    
 }

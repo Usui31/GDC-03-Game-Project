@@ -51,6 +51,7 @@ GameObject:
   - component: {fileID: 2028613734006318297}
   - component: {fileID: 1071172660938113850}
   - component: {fileID: 2722123631387296329}
+  - component: {fileID: 4216078930208786307}
   - component: {fileID: 2028613734006318301}
   m_Layer: 0
   m_Name: Girl
@@ -290,6 +291,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mati: {fileID: 0}
+  menu: {fileID: 0}
 --- !u!114 &1071172660938113850
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -318,6 +320,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39ad287529137ff4fb9f6f701ac8729b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  countKunci: {fileID: 0}
+  kunci: 0
+--- !u!114 &4216078930208786307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2028613734006318291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a48ecaca36d1f54b835132ef09a40d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countKunci: {fileID: 0}
+  kunci: 0
 --- !u!95 &2028613734006318301
 Animator:
   serializedVersion: 3

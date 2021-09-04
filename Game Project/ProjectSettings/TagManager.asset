@@ -10,6 +10,7 @@ TagManager:
   - finish
   - Bullet
   - Wall
+  - key
   layers:
   - Default
   - TransparentFX
