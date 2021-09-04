@@ -20,24 +20,24 @@ public class healthPlayer : MonoBehaviour
     }
 
     // Update is called once per frame
-    
+
 
     public void TakeDamage(int damage)
     {
         hp -= damage;
 
-        healthBar.setHealth(hp); 
+        healthBar.setHealth(hp);
 
-        if(hp <= 0)
+        if (hp <= 0)
         {
             Die();
-            
+
 
         }
     }
     void Die()
     {
-        if(diePEffect != null)
+        if (diePEffect != null)
         {
             Instantiate(diePEffect, transform.position, Quaternion.identity);
         }
@@ -46,7 +46,7 @@ public class healthPlayer : MonoBehaviour
         mati.SetActive(true);
 
         FindObjectOfType<AudioManager>().Stop("Theme");
-        
+
 
 
 
@@ -56,6 +56,13 @@ public class healthPlayer : MonoBehaviour
         Time.timeScale = 1;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         FindObjectOfType<AudioManager>().Play("Theme");
+
+    }
+    public void GoToMainMenu()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("Main Menu");
+        FindObjectOfType<AudioManager>().Play("MainMenu");
 
     }
 }

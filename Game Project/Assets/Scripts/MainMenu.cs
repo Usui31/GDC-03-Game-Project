@@ -6,17 +6,14 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
     public void PlayGame(){
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1); 
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        FindObjectOfType<AudioManager>().Stop("menu");
+        FindObjectOfType<AudioManager>().Play("Theme");
+
+        
     }
 
-    void Start()
-    {
-        if (SceneManager.GetActiveScene().buildIndex == 0)
-        {
-            FindObjectOfType<AudioMenu>().Play("menu");
-        }
-
-    }
+    
 
     public void QuitGame(){
         Debug.Log("quit");
