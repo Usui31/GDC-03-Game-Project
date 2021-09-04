@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 public class playerDeath : MonoBehaviour
 {
     public GameObject mati;
+
+    public GameObject menu;
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("enemy"))
@@ -21,6 +23,14 @@ public class playerDeath : MonoBehaviour
     {
         Time.timeScale = 1;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void GoToMainMenu2()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("Main Menu");
+        FindObjectOfType<AudioManager>().Stop("Theme");
+        FindObjectOfType<AudioManager>().Play("menu");
     }
 
 }

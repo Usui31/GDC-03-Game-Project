@@ -62,7 +62,7 @@ public class healthPlayer : MonoBehaviour
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene("Main Menu");
-        FindObjectOfType<AudioManager>().Play("MainMenu");
+        FindObjectOfType<AudioManager>().Play("menu");
 
     }
 }

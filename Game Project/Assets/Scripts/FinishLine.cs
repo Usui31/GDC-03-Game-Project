@@ -7,8 +7,9 @@ public class FinishLine : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collision){
         if(collision.tag == "Player"){
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(2);
             FindObjectOfType<AudioManager>().Stop("Theme");
+            FindObjectOfType<AudioManager>().Play("Credits");
         }
     }
 }
