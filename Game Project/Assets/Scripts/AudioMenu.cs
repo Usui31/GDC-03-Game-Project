@@ -42,14 +42,7 @@ public class AudioMenu : MonoBehaviour
         {
             FindObjectOfType<AudioMenu>().Play("menu");
         }
-        else
-        {
-            if(SceneManager.GetActiveScene().buildIndex > 0)
-            {
-                FindObjectOfType<AudioMenu>().Stop("menu");
-            }
-           
-        }
+        
 
     }
 

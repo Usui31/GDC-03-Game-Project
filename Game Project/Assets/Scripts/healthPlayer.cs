@@ -5,26 +5,29 @@ using UnityEngine.SceneManagement;
 
 public class healthPlayer : MonoBehaviour
 {
-    public float starthealth;
-    private float hp;
+    public int starthealth;
+    private int hp;
     public GameObject diePEffect;
+
+    public HealthBar healthBar;
 
     public GameObject mati;
     // Start is called before the first frame update
     void Start()
     {
         hp = starthealth;
+        healthBar.setMaxHealth(starthealth);
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 
-    public void TakeDamage(float damage)
+    public void TakeDamage(int damage)
     {
         hp -= damage;
+
+        healthBar.setHealth(hp); 
+
         if(hp <= 0)
         {
             Die();
