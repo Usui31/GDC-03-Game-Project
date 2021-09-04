@@ -31,7 +31,7 @@ public class bulletBaru : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D hit)
     {
-        if (hit.gameObject.CompareTag("Player"))
+        if (hit.gameObject.CompareTag("Player") || hit.gameObject.CompareTag("Wall"))
         {
             healthPlayer player = hit.GetComponent<healthPlayer>();
             player.TakeDamage(damage);

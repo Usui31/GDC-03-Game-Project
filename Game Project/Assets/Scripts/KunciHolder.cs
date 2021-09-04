@@ -7,7 +7,7 @@ public class KunciHolder : MonoBehaviour
 {
 
     private List<Kunci.KeyType> keyList;
-    public int count;
+    public int count= 0;
     public Text hitung;
 
 
@@ -43,12 +43,13 @@ public class KunciHolder : MonoBehaviour
             AddKey(key.GetKeyType());
             Destroy(key.gameObject);
             count += 1;
+            Debug.Log("count = "+ count);
             hitung.text = count.ToString();
         }
         KunciPintu keyDoor = collider.GetComponent<KunciPintu>();
         if (keyDoor != null)
         {
-            if (Containskey(keyDoor.GetKeyType()) && count == 3)
+            if (Containskey(keyDoor.GetKeyType()) && count == 4)
             {
 
                 RemoveKey(keyDoor.GetKeyType());
