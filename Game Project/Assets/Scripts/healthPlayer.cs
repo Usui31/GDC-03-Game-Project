@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class healthPlayer : MonoBehaviour
 {
-    public int starthealth;
+    public int starthealth ;
     private int hp;
     public GameObject diePEffect;
 

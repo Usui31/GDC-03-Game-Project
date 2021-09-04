@@ -1,13 +1,22 @@
 fileFormatVersion: 2
-guid: 2b2e1a0efb1ce694b8eb7f17fccfccfb
+guid: 28af26285f1d5694c91d7f4dcac27aed
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5041071518169971301
-    second: Cewe_kiri_Idle_Holding_Gun_4
+      213: 5188619573618352030
+    second: Cewe_kiri_Holding_gun_0
   - first:
-      213: -575734768066356108
-    second: Cewe_kiri_Idle_Holding_Gun_5
+      213: -8770710152338826632
+    second: Cewe_kiri_Holding_gun_1
+  - first:
+      213: -9165334400605058411
+    second: Cewe_kiri_Holding_gun_2
+  - first:
+      213: -314721145010072042
+    second: Cewe_kiri_Holding_gun_3
+  - first:
+      213: -7651898439169674223
+    second: Cewe_kiri_Holding_gun_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -97,127 +106,106 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Cewe_kiri_Idle_Holding_Gun_0
+      name: Cewe_kiri_Holding_gun_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 32
-        height: 32
+        y: 1
+        width: 25
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9b1d4997cce75f40800000000000000
-      internalID: 5717298593984748443
+      spriteID: e9f1920030ea10840800000000000000
+      internalID: 5188619573618352030
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cewe_kiri_Idle_Holding_Gun_1
+      name: Cewe_kiri_Holding_gun_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
+        x: 31
+        y: 1
+        width: 25
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a94d7e2823040290800000000000000
-      internalID: -7925205973151692377
+      spriteID: 87a9eede59d284680800000000000000
+      internalID: -8770710152338826632
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cewe_kiri_Idle_Holding_Gun_2
+      name: Cewe_kiri_Holding_gun_2
       rect:
         serializedVersion: 2
         x: 64
-        y: 0
-        width: 32
-        height: 32
+        y: 1
+        width: 25
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bbd9d8b8fefb82be0800000000000000
-      internalID: -1501739440168657477
+      spriteID: 59a84443ce03ec080800000000000000
+      internalID: -9165334400605058411
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cewe_kiri_Idle_Holding_Gun_3
+      name: Cewe_kiri_Holding_gun_3
       rect:
         serializedVersion: 2
         x: 96
-        y: 0
-        width: 32
-        height: 32
+        y: 1
+        width: 25
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e33d4275b60018fe0800000000000000
-      internalID: -1188668365625568450
+      spriteID: 616de5c39c2e1abf0800000000000000
+      internalID: -314721145010072042
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cewe_kiri_Idle_Holding_Gun_4
+      name: Cewe_kiri_Holding_gun_4
       rect:
         serializedVersion: 2
         x: 128
-        y: 0
-        width: 32
-        height: 32
+        y: 1
+        width: 25
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56a3cd746db75f540800000000000000
-      internalID: 5041071518169971301
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cewe_kiri_Idle_Holding_Gun_5
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 47c109067449208f0800000000000000
-      internalID: -575734768066356108
+      spriteID: 114fceb39eefec590800000000000000
+      internalID: -7651898439169674223
       vertices: []
       indices: 
       edges: []
