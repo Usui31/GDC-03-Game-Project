@@ -13,9 +13,9 @@ public class TUTOR : MonoBehaviour
         }
     }
 
-    void Tutorial()
+    public void Tutorial()
     {
-        Time.timeScale = 0;
+        
         Destroy(gameObject);
     }
 }
