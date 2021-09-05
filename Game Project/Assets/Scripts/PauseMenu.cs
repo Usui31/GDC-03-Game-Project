@@ -45,7 +45,7 @@ public class PauseMenu : MonoBehaviour
         SceneManager.LoadScene("Main Menu");
         isPaused = false;
         FindObjectOfType<AudioManager>().Stop("Theme");
-        FindObjectOfType<AudioMenu>().Play("menu");
+        FindObjectOfType<AudioManager>().Play("menu");
     }
 
     public void QuitGame(){

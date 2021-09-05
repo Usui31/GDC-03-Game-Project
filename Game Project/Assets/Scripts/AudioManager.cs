@@ -1,6 +1,7 @@
 using UnityEngine.Audio;
 using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AudioManager : MonoBehaviour
 {
@@ -37,7 +38,11 @@ public class AudioManager : MonoBehaviour
 
     private void Start()
     {
-        Play("Theme");
+        if (SceneManager.GetActiveScene().buildIndex == 1)
+        {
+            Play("Theme");
+        }
+            
     }
 
 

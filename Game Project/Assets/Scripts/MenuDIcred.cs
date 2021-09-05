@@ -19,13 +19,21 @@ public class MenuDIcred : MonoBehaviour
 
         if (SceneManager.GetActiveScene().buildIndex < 1)
         {
-            
+
             
             FindObjectOfType<AudioManager>().Stop("Credits");
-            
-            
+            FindObjectOfType<AudioManager>().Play("menu");
+
+
         }
+         
+    }
+    public void GoToMainMenu2()
+    {
+       
+        SceneManager.LoadScene("Main Menu");
         
-        
+        FindObjectOfType<AudioManager>().Stop("Credits");
+        FindObjectOfType<AudioManager>().Play("menu");
     }
 }
