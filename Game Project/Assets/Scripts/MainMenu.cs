@@ -12,30 +12,17 @@ public class MainMenu : MonoBehaviour
 
     private void Start()
     {
-       /* if (Menu == true && Game == false && credits == false)
+        if (SceneManager.GetActiveScene().buildIndex <= 0)
         {
+            FindObjectOfType<AudioMenu>().Stop("Credits");
             FindObjectOfType<AudioMenu>().Play("menu");
-            if (Menu == false && Game == true && credits == false)
-            {
-                FindObjectOfType<AudioManager>().Play("Theme");
-                if (Menu == false && Game == false && credits == true)
-                {
-                    FindObjectOfType<AudioMenu>().Play("credits");
-                }
-                else
-                {
-                    FindObjectOfType<AudioMenu>().Stop("credits");
-                }
-            }
-            else
-            {
-                FindObjectOfType<AudioMenu>().Stop("credits");
-            }
+            
         }
+           
         else
         {
             FindObjectOfType<AudioMenu>().Stop("menu");
-        }*/
+        }
             
         
         
@@ -43,7 +30,7 @@ public class MainMenu : MonoBehaviour
     public void PlayGame(){
         SceneManager.LoadScene("Game Scene");
         FindObjectOfType<AudioMenu>().Stop("menu");
-        FindObjectOfType<AudioManager>().Stop("Credits");
+        FindObjectOfType<AudioMenu>().Stop("Credits");
         FindObjectOfType<AudioManager>().Play("Theme");
         Menu = false;
         Game = true;
@@ -55,9 +42,9 @@ public class MainMenu : MonoBehaviour
     public void CreditsGame()
     {
         SceneManager.LoadScene("FINISH");
-        FindObjectOfType<AudioManager>().Stop("menu");
+        
         FindObjectOfType<AudioMenu>().Stop("menu");
-        FindObjectOfType<AudioManager>().Play("Credits");
+        FindObjectOfType<AudioMenu>().Play("Credits");
         Menu = false;
         Game = false;
         credits = true;

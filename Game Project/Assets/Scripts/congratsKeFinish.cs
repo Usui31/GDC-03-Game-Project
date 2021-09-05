@@ -17,6 +17,6 @@ public class congratsKeFinish : MonoBehaviour
     {
         SceneManager.LoadScene(3);
         FindObjectOfType<AudioManager>().Stop("Congrats");
-        FindObjectOfType<AudioManager>().Play("Credits");
+        FindObjectOfType<AudioMenu>().Play("Credits");
     }
 }
