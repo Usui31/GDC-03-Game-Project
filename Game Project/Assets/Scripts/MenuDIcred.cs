@@ -14,7 +14,14 @@ public class MenuDIcred : MonoBehaviour
         
 
         SceneManager.LoadScene(scenename);
-        FindObjectOfType<AudioManager>().Stop("Credits");
-        FindObjectOfType<AudioManager>().Play("menu");
+        if(scenename == "Main Menu")
+        {
+            
+            
+            FindObjectOfType<AudioManager>().Stop("Credits");
+            FindObjectOfType<AudioMenu>().Play("menu");
+        }
+        
+        
     }
 }
