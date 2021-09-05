@@ -765,7 +765,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 6017379436030131374, guid: 30030fb5eb6f6fa4595545d672cd8cec, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 72c6ae1fa32c81c4d8b2a17f7a61d763, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -784,8 +784,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 173053835}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 62.89, y: 4.26, z: -1}
-  m_LocalScale: {x: 2.6828382, y: 2.6016486, z: 1}
+  m_LocalPosition: {x: 63.53, y: 4.46, z: -1}
+  m_LocalScale: {x: 1.6, y: 1.6, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -13151,7 +13151,6 @@ GameObject:
   - component: {fileID: 935489179}
   - component: {fileID: 935489178}
   - component: {fileID: 935489177}
-  - component: {fileID: 935489176}
   m_Layer: 0
   m_Name: key3
   m_TagString: key
@@ -13159,25 +13158,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!95 &935489176
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 935489175}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ffcf46a127d9ec341b60210a45536dea, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &935489177
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13247,7 +13227,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 6017379436030131374, guid: 30030fb5eb6f6fa4595545d672cd8cec, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 72c6ae1fa32c81c4d8b2a17f7a61d763, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -13267,7 +13247,7 @@ Transform:
   m_GameObject: {fileID: 935489175}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 57.78, y: -22.82, z: -1}
-  m_LocalScale: {x: 2.6828382, y: 2.6016486, z: 1}
+  m_LocalScale: {x: 1.6, y: 1.6, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
@@ -13972,7 +13952,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3a02b4c64a5e37b4faf4307df4eaab3b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 72c6ae1fa32c81c4d8b2a17f7a61d763, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -85826,7 +85806,6 @@ GameObject:
   - component: {fileID: 1984049884}
   - component: {fileID: 1984049883}
   - component: {fileID: 1984049882}
-  - component: {fileID: 1984049881}
   m_Layer: 0
   m_Name: key2
   m_TagString: key
@@ -85834,25 +85813,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!95 &1984049881
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1984049880}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ffcf46a127d9ec341b60210a45536dea, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &1984049882
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -85922,7 +85882,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 6017379436030131374, guid: 30030fb5eb6f6fa4595545d672cd8cec, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 72c6ae1fa32c81c4d8b2a17f7a61d763, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -85941,8 +85901,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1984049880}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.72, y: -43.04, z: -1}
-  m_LocalScale: {x: 2.6828382, y: 2.6016486, z: 1}
+  m_LocalPosition: {x: -1.576, y: -43.468, z: -1}
+  m_LocalScale: {x: 1.6, y: 1.6, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -85959,7 +85919,6 @@ GameObject:
   - component: {fileID: 1996162317}
   - component: {fileID: 1996162316}
   - component: {fileID: 1996162315}
-  - component: {fileID: 1996162314}
   m_Layer: 0
   m_Name: key4
   m_TagString: key
@@ -85967,25 +85926,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!95 &1996162314
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1996162313}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ffcf46a127d9ec341b60210a45536dea, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &1996162315
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -86055,7 +85995,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 6017379436030131374, guid: 30030fb5eb6f6fa4595545d672cd8cec, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 72c6ae1fa32c81c4d8b2a17f7a61d763, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -86074,8 +86014,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1996162313}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 37.42, y: -39.22, z: -1}
-  m_LocalScale: {x: 2.6828382, y: 2.6016486, z: 1}
+  m_LocalPosition: {x: 37.487, y: -39.524, z: -1}
+  m_LocalScale: {x: 1.6, y: 1.6, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
