@@ -289,7 +289,7 @@ PrefabInstance:
       objectReference: {fileID: 1968700148}
     - target: {fileID: 3414815085008409401, guid: 39875aa129c09654da9eac4bcd070e15, type: 3}
       propertyPath: distance
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3414815085008409401, guid: 39875aa129c09654da9eac4bcd070e15, type: 3}
       propertyPath: projectile
@@ -654,7 +654,7 @@ PrefabInstance:
       objectReference: {fileID: 1968700148}
     - target: {fileID: 3414815085008409401, guid: 39875aa129c09654da9eac4bcd070e15, type: 3}
       propertyPath: distance
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3414815085008409401, guid: 39875aa129c09654da9eac4bcd070e15, type: 3}
       propertyPath: projectile
@@ -968,7 +968,7 @@ PrefabInstance:
       objectReference: {fileID: 1968700148}
     - target: {fileID: 3414815085008409401, guid: 39875aa129c09654da9eac4bcd070e15, type: 3}
       propertyPath: distance
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3414815085008409401, guid: 39875aa129c09654da9eac4bcd070e15, type: 3}
       propertyPath: projectile
@@ -1062,7 +1062,7 @@ PrefabInstance:
       objectReference: {fileID: 1968700148}
     - target: {fileID: 3414815085008409401, guid: 39875aa129c09654da9eac4bcd070e15, type: 3}
       propertyPath: distance
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3414815085008409401, guid: 39875aa129c09654da9eac4bcd070e15, type: 3}
       propertyPath: projectile
@@ -1238,7 +1238,7 @@ PrefabInstance:
       objectReference: {fileID: 1968700148}
     - target: {fileID: 3414815085008409401, guid: 39875aa129c09654da9eac4bcd070e15, type: 3}
       propertyPath: distance
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3414815085008409401, guid: 39875aa129c09654da9eac4bcd070e15, type: 3}
       propertyPath: projectile
@@ -1332,7 +1332,7 @@ PrefabInstance:
       objectReference: {fileID: 1968700148}
     - target: {fileID: 3414815085008409401, guid: 39875aa129c09654da9eac4bcd070e15, type: 3}
       propertyPath: distance
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3414815085008409401, guid: 39875aa129c09654da9eac4bcd070e15, type: 3}
       propertyPath: projectile
@@ -1646,7 +1646,7 @@ PrefabInstance:
       objectReference: {fileID: 1968700148}
     - target: {fileID: 3414815085008409401, guid: 39875aa129c09654da9eac4bcd070e15, type: 3}
       propertyPath: distance
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3414815085008409401, guid: 39875aa129c09654da9eac4bcd070e15, type: 3}
       propertyPath: projectile
@@ -11890,7 +11890,7 @@ PrefabInstance:
       objectReference: {fileID: 1968700148}
     - target: {fileID: 3414815085008409401, guid: 39875aa129c09654da9eac4bcd070e15, type: 3}
       propertyPath: distance
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3414815085008409401, guid: 39875aa129c09654da9eac4bcd070e15, type: 3}
       propertyPath: projectile
@@ -11984,7 +11984,7 @@ PrefabInstance:
       objectReference: {fileID: 1968700148}
     - target: {fileID: 3414815085008409401, guid: 39875aa129c09654da9eac4bcd070e15, type: 3}
       propertyPath: distance
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3414815085008409401, guid: 39875aa129c09654da9eac4bcd070e15, type: 3}
       propertyPath: projectile
@@ -12078,7 +12078,7 @@ PrefabInstance:
       objectReference: {fileID: 1968700148}
     - target: {fileID: 3414815085008409401, guid: 39875aa129c09654da9eac4bcd070e15, type: 3}
       propertyPath: distance
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3414815085008409401, guid: 39875aa129c09654da9eac4bcd070e15, type: 3}
       propertyPath: projectile
@@ -13195,7 +13195,7 @@ PrefabInstance:
       objectReference: {fileID: 1968700148}
     - target: {fileID: 3414815085008409401, guid: 39875aa129c09654da9eac4bcd070e15, type: 3}
       propertyPath: distance
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3414815085008409401, guid: 39875aa129c09654da9eac4bcd070e15, type: 3}
       propertyPath: projectile
@@ -13528,7 +13528,7 @@ PrefabInstance:
       objectReference: {fileID: 1968700148}
     - target: {fileID: 3414815085008409401, guid: 39875aa129c09654da9eac4bcd070e15, type: 3}
       propertyPath: distance
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3414815085008409401, guid: 39875aa129c09654da9eac4bcd070e15, type: 3}
       propertyPath: projectile
@@ -13817,7 +13817,7 @@ PrefabInstance:
       objectReference: {fileID: 1968700148}
     - target: {fileID: 3414815085008409401, guid: 39875aa129c09654da9eac4bcd070e15, type: 3}
       propertyPath: distance
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3414815085008409401, guid: 39875aa129c09654da9eac4bcd070e15, type: 3}
       propertyPath: projectile
@@ -14286,7 +14286,7 @@ PrefabInstance:
       objectReference: {fileID: 1968700148}
     - target: {fileID: 3414815085008409401, guid: 39875aa129c09654da9eac4bcd070e15, type: 3}
       propertyPath: distance
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3414815085008409401, guid: 39875aa129c09654da9eac4bcd070e15, type: 3}
       propertyPath: projectile
@@ -14601,7 +14601,7 @@ PrefabInstance:
       objectReference: {fileID: 1968700148}
     - target: {fileID: 3414815085008409401, guid: 39875aa129c09654da9eac4bcd070e15, type: 3}
       propertyPath: distance
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3414815085008409401, guid: 39875aa129c09654da9eac4bcd070e15, type: 3}
       propertyPath: projectile
@@ -14770,7 +14770,7 @@ PrefabInstance:
       objectReference: {fileID: 1968700148}
     - target: {fileID: 3414815085008409401, guid: 39875aa129c09654da9eac4bcd070e15, type: 3}
       propertyPath: distance
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3414815085008409401, guid: 39875aa129c09654da9eac4bcd070e15, type: 3}
       propertyPath: projectile
@@ -15064,7 +15064,7 @@ PrefabInstance:
       objectReference: {fileID: 1968700148}
     - target: {fileID: 3414815085008409401, guid: 39875aa129c09654da9eac4bcd070e15, type: 3}
       propertyPath: distance
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3414815085008409401, guid: 39875aa129c09654da9eac4bcd070e15, type: 3}
       propertyPath: projectile
@@ -15224,7 +15224,7 @@ PrefabInstance:
       objectReference: {fileID: 1968700148}
     - target: {fileID: 3414815085008409401, guid: 39875aa129c09654da9eac4bcd070e15, type: 3}
       propertyPath: distance
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3414815085008409401, guid: 39875aa129c09654da9eac4bcd070e15, type: 3}
       propertyPath: projectile
@@ -15405,7 +15405,7 @@ PrefabInstance:
       objectReference: {fileID: 1968700148}
     - target: {fileID: 3414815085008409401, guid: 39875aa129c09654da9eac4bcd070e15, type: 3}
       propertyPath: distance
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3414815085008409401, guid: 39875aa129c09654da9eac4bcd070e15, type: 3}
       propertyPath: projectile
@@ -86327,7 +86327,7 @@ PrefabInstance:
       objectReference: {fileID: 1968700148}
     - target: {fileID: 3414815085008409401, guid: 39875aa129c09654da9eac4bcd070e15, type: 3}
       propertyPath: distance
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3414815085008409401, guid: 39875aa129c09654da9eac4bcd070e15, type: 3}
       propertyPath: projectile
@@ -86553,7 +86553,7 @@ PrefabInstance:
       objectReference: {fileID: 1968700148}
     - target: {fileID: 3414815085008409401, guid: 39875aa129c09654da9eac4bcd070e15, type: 3}
       propertyPath: distance
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3414815085008409401, guid: 39875aa129c09654da9eac4bcd070e15, type: 3}
       propertyPath: projectile
@@ -86647,7 +86647,7 @@ PrefabInstance:
       objectReference: {fileID: 1968700148}
     - target: {fileID: 3414815085008409401, guid: 39875aa129c09654da9eac4bcd070e15, type: 3}
       propertyPath: distance
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3414815085008409401, guid: 39875aa129c09654da9eac4bcd070e15, type: 3}
       propertyPath: projectile
@@ -86982,7 +86982,7 @@ PrefabInstance:
       objectReference: {fileID: 1968700148}
     - target: {fileID: 3414815085008409401, guid: 39875aa129c09654da9eac4bcd070e15, type: 3}
       propertyPath: distance
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3414815085008409401, guid: 39875aa129c09654da9eac4bcd070e15, type: 3}
       propertyPath: projectile
@@ -87071,7 +87071,7 @@ PrefabInstance:
       objectReference: {fileID: 1968700148}
     - target: {fileID: 3414815085008409401, guid: 39875aa129c09654da9eac4bcd070e15, type: 3}
       propertyPath: distance
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3414815085008409401, guid: 39875aa129c09654da9eac4bcd070e15, type: 3}
       propertyPath: projectile
@@ -87478,7 +87478,7 @@ PrefabInstance:
       objectReference: {fileID: 1968700148}
     - target: {fileID: 3414815085008409401, guid: 39875aa129c09654da9eac4bcd070e15, type: 3}
       propertyPath: distance
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3414815085008409401, guid: 39875aa129c09654da9eac4bcd070e15, type: 3}
       propertyPath: projectile
@@ -87716,7 +87716,7 @@ PrefabInstance:
       objectReference: {fileID: 1968700148}
     - target: {fileID: 3414815085008409401, guid: 39875aa129c09654da9eac4bcd070e15, type: 3}
       propertyPath: distance
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3414815085008409401, guid: 39875aa129c09654da9eac4bcd070e15, type: 3}
       propertyPath: projectile
