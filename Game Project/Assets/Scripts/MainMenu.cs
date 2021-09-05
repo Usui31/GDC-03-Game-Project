@@ -43,6 +43,7 @@ public class MainMenu : MonoBehaviour
     public void PlayGame(){
         SceneManager.LoadScene("Game Scene");
         FindObjectOfType<AudioMenu>().Stop("menu");
+        FindObjectOfType<AudioManager>().Stop("Credits");
         FindObjectOfType<AudioManager>().Play("Theme");
         Menu = false;
         Game = true;
@@ -54,8 +55,9 @@ public class MainMenu : MonoBehaviour
     public void CreditsGame()
     {
         SceneManager.LoadScene("FINISH");
+        FindObjectOfType<AudioManager>().Stop("menu");
         FindObjectOfType<AudioMenu>().Stop("menu");
-        FindObjectOfType<AudioMenu>().Play("credits");
+        FindObjectOfType<AudioManager>().Play("Credits");
         Menu = false;
         Game = false;
         credits = true;

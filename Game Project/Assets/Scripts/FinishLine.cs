@@ -9,7 +9,7 @@ public class FinishLine : MonoBehaviour
         if(collision.tag == "Player"){
             SceneManager.LoadScene(2);
             FindObjectOfType<AudioManager>().Stop("Theme");
-            FindObjectOfType<AudioManager>().Play("Credits");
+            FindObjectOfType<AudioManager>().Play("Congrats");
         }
     }
 }

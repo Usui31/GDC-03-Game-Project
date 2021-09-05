@@ -9,17 +9,19 @@ public class MenuDIcred : MonoBehaviour
     public GameObject menu;
 
 
-    public void LoadScene(string scenename)
+    public void LoadScene()
     {
-        
 
-        SceneManager.LoadScene(scenename);
-        if(scenename == "Main Menu")
+
+        SceneManager.LoadScene(0);
+        if(SceneManager.GetActiveScene().buildIndex == 0)
         {
             
             
             FindObjectOfType<AudioManager>().Stop("Credits");
+            FindObjectOfType<AudioMenu>().Stop("Credits");
             FindObjectOfType<AudioMenu>().Play("menu");
+            FindObjectOfType<AudioManager>().Play("menu");
         }
         
         

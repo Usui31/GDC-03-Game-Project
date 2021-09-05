@@ -188,7 +188,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 422005041}
-  - component: {fileID: 422005042}
   - component: {fileID: 422005043}
   m_Layer: 0
   m_Name: levelmanage
@@ -211,20 +210,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &422005042
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 422005039}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a709dbc9e9117c4d915ba041c999619, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mati: {fileID: 0}
-  menu: {fileID: 0}
 --- !u!114 &422005043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -237,7 +222,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0a7cc7077b61074ea05c60cce9a5a8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menu: {fileID: 0}
+  menu: {fileID: 109748443162371838}
 --- !u!1 &423096916
 GameObject:
   m_ObjectHideFlags: 0
@@ -957,7 +942,7 @@ MonoBehaviour:
       - m_Target: {fileID: 422005043}
         m_TargetAssemblyTypeName: MenuDIcred, Assembly-CSharp
         m_MethodName: LoadScene
-        m_Mode: 5
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

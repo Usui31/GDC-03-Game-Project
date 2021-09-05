@@ -41,6 +41,18 @@ public class AudioMenu : MonoBehaviour
         if (SceneManager.GetActiveScene().buildIndex <= 0)
         {
             FindObjectOfType<AudioMenu>().Play("menu");
+
+            FindObjectOfType<AudioMenu>().Stop("Credits");
+
+        }
+        else
+        {
+            if(SceneManager.GetActiveScene().buildIndex == 3)
+            {
+                FindObjectOfType<AudioMenu>().Play("Credits");
+
+                FindObjectOfType<AudioMenu>().Stop("menu");
+            }
         }
         
 
