@@ -7,7 +7,7 @@ public class MenghitungItem : MonoBehaviour
 {
     public Text countKunci;
     public float kunci = 0;
-    public void OnTriggerEnter2D(Collision2D other)
+    public void OnTriggerEnter2D(Collider2D other)
     {
 
         if (other.gameObject.CompareTag("key"))
