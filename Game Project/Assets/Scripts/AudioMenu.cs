@@ -38,7 +38,7 @@ public class AudioMenu : MonoBehaviour
 
     void Start()
     {
-        if (SceneManager.GetActiveScene().buildIndex < 0)
+        if (SceneManager.GetActiveScene().buildIndex <= 0)
         {
             FindObjectOfType<AudioMenu>().Play("menu");
         }

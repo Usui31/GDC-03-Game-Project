@@ -12,7 +12,7 @@ public class MainMenu : MonoBehaviour
 
     private void Start()
     {
-        if (Menu == true && Game == false && credits == false)
+       /* if (Menu == true && Game == false && credits == false)
         {
             FindObjectOfType<AudioMenu>().Play("menu");
             if (Menu == false && Game == true && credits == false)
@@ -35,7 +35,7 @@ public class MainMenu : MonoBehaviour
         else
         {
             FindObjectOfType<AudioMenu>().Stop("menu");
-        }
+        }*/
             
         
         
