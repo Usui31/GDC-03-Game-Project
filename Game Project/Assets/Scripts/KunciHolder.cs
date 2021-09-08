@@ -49,7 +49,7 @@ public class KunciHolder : MonoBehaviour
         KunciPintu keyDoor = collider.GetComponent<KunciPintu>();
         if (keyDoor != null)
         {
-            if (Containskey(keyDoor.GetKeyType()) && count == 4)
+            if (Containskey(keyDoor.GetKeyType()) && count == 1)
             {
 
                 RemoveKey(keyDoor.GetKeyType());
